@@ -3,7 +3,7 @@ import ImageHandler from './contentful-image'
 export default function Company({ name, picture, link }) {
   return (
     <div className="flex items-center">
-      <div className="relative w-12 h-12 mr-4">
+      <div className="relative w-100 h-100 mr-4">
         <ImageHandler
           src={picture.url}
           layout="fill"
